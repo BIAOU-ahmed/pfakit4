@@ -1,0 +1,25 @@
+<%- include('../partials/header')  %> 
+<form action="/register" method="POST" class="ui form">
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" placeholder="title">
+    </div>
+    <div class="field">
+      <label>Date</label>
+      <input type="date" name="date" >
+    </div>
+    <div class="field">
+      <label>Local</label>
+      <input type="text" name="local" placeholder="local">
+    </div>
+    <div class="field">
+      <label>Subject</label>
+      <input type="text" name="subject" placeholder="subject">
+    </div>
+    <div class="field">
+      <label>Desciption</label>
+      <textarea name="desc" rows="" cols=""></textarea>
+    </div>
+    <button class="fluid ui button">Valider</button>
+  </form>
+<%- include('../partials/footer')  %> 
